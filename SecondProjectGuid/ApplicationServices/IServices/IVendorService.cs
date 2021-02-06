@@ -13,4 +13,4 @@ namespace SecondProjectGuid.ApplicationServices.IServices
         Task<int> Update(VendorUpdateDTO DTO, string Id);
         Task<VendorInsertResponseDTO> Insert(VendorInsertDTO dto); 
     }
-} 
+}

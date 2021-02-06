@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace SecondProjectGuid.InferaStructure.Repositories
 {
     public class VendorRepository:IVendorRepository
-    { 
+    {
         private readonly ProjectContext _db;
 
         public VendorRepository(ProjectContext db)
