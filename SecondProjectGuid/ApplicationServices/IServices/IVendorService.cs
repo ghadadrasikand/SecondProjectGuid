@@ -11,6 +11,6 @@ namespace SecondProjectGuid.ApplicationServices.IServices
         Task<bool> DeleteVendorById(string id);
         Task<VendorDTO> GetVendorById(string id);
         Task<int> Update(VendorUpdateDTO DTO, string Id);
-        Task<VendorInsertResponseDTO> Insert(VendorInsertDTO dto);
+        Task<VendorInsertResponseDTO> Insert(VendorInsertDTO dto); 
     }
 }
